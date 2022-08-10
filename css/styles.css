@@ -120,6 +120,9 @@ h1 {
     height: 216px;
     width: 400%;
     height: inherit;
+
+    display: flex;
+    
 }
 
 .menu h1 {
