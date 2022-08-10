@@ -1,22 +1,28 @@
- // let element = document.getElementById('bottom-label');
- // 
- // let element2 = document.getElementById('options');
- // 
- // 
- // function testandoCores(id) {
- //     let element = document.getElementById(id);
- // 
- //     element.style.border = '1px solid red';
- // }
- // 
- // element.addEventListener('click', function() {
- //     testandoCores(element.id);
- // });
- // 
- // element2.addEventListener('click', function() {
- //     testandoCores(element2.id);
- // });
-function myFunction(id) {
-    document.querySelectorAll('button');
+let buttons = document.querySelectorAll('button');
+
+function selectorGreen1(id) {
+    for (let i = 0; i < 4; i++) {
+        if (buttons[i].classList.toggle("border-green")){
+            buttons[i].classList.toggle("border-green");
+        }
+    }
+    document.getElementById(id).classList.toggle("border-green");
+}
+
+function selectorGreen2(id) {
+    for (let i = 4; i < 9; i++) {
+        if (buttons[i].classList.toggle("border-green")){
+            buttons[i].classList.toggle("border-green");
+        }
+    }
+    document.getElementById(id).classList.toggle("border-green");
+}
+
+function selectorGreen3(id) {
+    for (let i = 9; i < buttons.length; i++) {
+        if (buttons[i].classList.toggle("border-green")){
+            buttons[i].classList.toggle("border-green");
+        }
+    }
     document.getElementById(id).classList.toggle("border-green");
 }
