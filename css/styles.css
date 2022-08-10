@@ -171,15 +171,45 @@ h1 {
     height: 216px;
 
     margin-left: 19px;
+    text-align: start;
 
-
+    border-color: #FFFFFF;
     box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
     border-radius: 9px;
     background-color: #FFFFFF;
+}
+
+.option ion-icon {
+    margin-top: 8px;
+    height: 22px;
+    width: 22px;
+    color: green;
+    display: None;
 }
 
 .in-center {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.space-bet {
+    display: flex;
+    justify-content: space-between;
+} 
+
+.border-green {
+    border: 5px solid green;
+}
+
+.border-green ion-icon {
+    display: initial;
+}
+
+.border-none {
+    border: 0px solid white;
+}
+
+.border-none ion-icon {
+    display: None;
 }

@@ -20,34 +20,43 @@
             <h1>Primeiro, seu prato</h1>
             <div class="scroll-screen">
                 <div class="scroll-screen-child">
-                    <div class="option in-center">
+                    <button id="option" class="option in-center" onclick="myFunction('option')">
                         <div id="box-elements-option">
                             <img src="https://www.sabornamesa.com.br/media/k2/items/cache/dee4183b3eece6f1f1fda5b7115d2824_XL.jpg" alt="comida">
                             <h2>Frango Yin Yang</h2>
                             <p>Um pouco de batata, um pouco de salada</p>
-                            <h3>R$ 14,90</h3>
+                            <div class="space-bet">
+                                <h3>R$ 14,90</h3>
+                                <ion-icon name="checkmark-circle"></ion-icon>
+                            </div>
                         </div>
-                    </div>
+                    </button>
 
-                    <div class="option in-center">
+                    <button id="option2" class="option in-center" onclick="myFunction('option2')">
                         <div id="box-elements-option">
                             <img src="https://www.sabornamesa.com.br/media/k2/items/cache/dee4183b3eece6f1f1fda5b7115d2824_XL.jpg" alt="comida">
                             <h2>Frango Yin Yang</h2>
                             <p>Um pouco de batata, um pouco de salada</p>
-                            <h3>R$ 14,90</h3>
+                            <div class="space-bet">
+                                <h3>R$ 14,90</h3>
+                                <ion-icon name="checkmark-circle"></ion-icon>
+                            </div>
                         </div>
-                    </div>
+                    </button>
 
-                    <div class="option in-center">
+                    <button id="option3" class="option in-center" onclick="myFunction('option3')">
                         <div id="box-elements-option">
                             <img src="https://www.sabornamesa.com.br/media/k2/items/cache/dee4183b3eece6f1f1fda5b7115d2824_XL.jpg" alt="comida">
                             <h2>Frango Yin Yang</h2>
                             <p>Um pouco de batata, um pouco de salada</p>
-                            <h3>R$ 14,90</h3>
+                            <div class="space-bet">
+                                <h3>R$ 14,90</h3>
+                                <ion-icon name="checkmark-circle"></ion-icon>
+                            </div>
                         </div>
-                    </div>
+                    </button>
 
-                    <div class="option in-center">
+                    <div id="option" class="option in-center">
                         <div id="box-elements-option">
                             <img src="https://www.sabornamesa.com.br/media/k2/items/cache/dee4183b3eece6f1f1fda5b7115d2824_XL.jpg" alt="comida">
                             <h2>Frango Yin Yang</h2>
@@ -93,10 +102,11 @@
     </div>
 
     <div class="label in-center">
-        <div class="flex-on in-center">
+        <div id="bottom-label" class="flex-on in-center">
             <p>Selecione os 3 itens para fechar o pedido</p>
         </div>
     </div>
-
+    <script src="javascript.js"></script>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 </body>
 </html>
