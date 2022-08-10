@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+.header {
+    position: relative;
+    width: 414px;
+    height: 92px;
+    left: 0px;
+    top: 0px;
+
+    background: #CF2B2B;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header h1 {
+    position: absolute;
+    width: 248px;
+    height: 44px;
+    left: 21px;
+    top: 8px;
+
+    font-family: "Righteous", cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 55px;
+    letter-spacing: -0.012em;
+
+    color: #FFFFFF;
+}
+
+.header h2 {
+    position: absolute;
+    width: 226px;
+    height: 17px;
+    left: 21px;
+    top: 57px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+}
