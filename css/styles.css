@@ -84,14 +84,8 @@ body {
     background: #EEEEEE;
 }
 
-.flex-on {
+.in-center {
     display: flex;
-}
-
-.just-center {
     justify-content: center;
-}
-
-.align-center {
     align-items: center;
-} 
+}
