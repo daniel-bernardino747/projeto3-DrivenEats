@@ -309,3 +309,8 @@ h1 {
 .column {
     flex-direction: column;
 }
+
+a {
+    width: 90%;
+    text-decoration: none;    
+}

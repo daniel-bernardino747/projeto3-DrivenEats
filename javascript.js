@@ -1,5 +1,3 @@
-document.getElementById("bottom-label").disabled = true;
-
 function selector(family, classButton) {
     const selected = document.querySelector(`.${family} .border-green`);
 
@@ -19,11 +17,21 @@ function selector(family, classButton) {
         const FinishPurchase = document.getElementById('bottom-label');
         FinishPurchase.innerHTML = 'Fechar pedido';
         FinishPurchase.classList.add('finishPurchase');
-
-        document.getElementById("bottom-label").disabled = false;
     }
 }
 
 function confirmOrder() {
+    const name = prompt('Digite seu nome: ');
+    const address = prompt('Digite seu endereço: ');
+
+    document.getElementById('title-order').innerHTML = `Esse é seu pedido, ${name}?`;
     document.getElementById("confirm-order").classList.add('unhidden');
+
+    let url = `Olá, gostaria de fazer o pedido:\n- Prato: Frango Yin Yang\n- Bebida: Coquinha Gelada\n- Sobremesa: Pudim\nTotal: R$ 27.70\n\nNome: ${name}\nEndereço: ${address}`;
+    let encode = encodeURIComponent(url);
+    let linke = 'https://wa.me/5548996844907?text='+encode;
+
+    const a = document.querySelector('#link-wpp');
+    a.href = linke;
+    console.log(encode);
 }
