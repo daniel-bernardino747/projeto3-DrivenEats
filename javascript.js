@@ -19,5 +19,11 @@ function selector(family, classButton) {
         const FinishPurchase = document.getElementById('bottom-label');
         FinishPurchase.innerHTML = 'Fechar pedido';
         FinishPurchase.classList.add('finishPurchase');
+
+        document.getElementById("bottom-label").disabled = false;
     }
+}
+
+function confirmOrder() {
+    document.getElementById("blabla").classList.add('unhidden');
 }

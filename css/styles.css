@@ -216,3 +216,88 @@ h1 {
 
     color: #FFFFFF;
 }
+
+.confirm-order {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.confirm-order .box {
+    width: 80%;
+    height: 300px;
+    
+    background: #50D074;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+}
+
+.confirm-order .box h1 {
+    margin: 15px 0px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.confirm-order .box p {
+    margin: 3px 18px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.018em;
+
+    color: #FFFFFF;
+}
+
+.confirm-order .box h3 {
+    margin: 7px 18px;
+    margin-bottom: 15px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.018em;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.confirm-order .box h4 {
+    margin: 0px 18px;
+    margin-bottom: 15px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.018em;
+
+    color: #FFFFFF;
+}
+
+.button-wpp {
+    margin: 0 18px;
+    width: 89%;
+    height: 52px;
+    background: #FFFFFF;
+    border-radius: 100px;
+}
+
+.button-wpp h6 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.018em;
+    
+    color: #50D074;
+}
+
+.unhidden {
+    display: initial;
+}
