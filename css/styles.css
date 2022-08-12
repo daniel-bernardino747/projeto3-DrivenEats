@@ -66,7 +66,7 @@ h1 {
     background: #FFFFFF;
 }
 
-.label div {
+.label button {
     width: 90%;
     max-width: 380px;
     height: 61px;
@@ -118,7 +118,7 @@ h1 {
 
 .menu .scroll-screen-child {
     height: 216px;
-    width: 400%;
+    width: 300%;
     height: inherit;
 
     display: flex;
@@ -183,7 +183,7 @@ h1 {
     margin-top: 8px;
     height: 22px;
     width: 22px;
-    color: green;
+    color: #32B72F;
     display: None;
 }
 
@@ -199,17 +199,9 @@ h1 {
 } 
 
 .border-green {
-    border: 5px solid green;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 5px #32B72F;
 }
 
 .border-green ion-icon {
     display: initial;
-}
-
-.border-none {
-    border: 0px solid white;
-}
-
-.border-none ion-icon {
-    display: None;
 }
