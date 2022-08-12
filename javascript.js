@@ -25,5 +25,5 @@ function selector(family, classButton) {
 }
 
 function confirmOrder() {
-    document.getElementById("blabla").classList.add('unhidden');
+    document.getElementById("confirm-order").classList.add('unhidden');
 }
