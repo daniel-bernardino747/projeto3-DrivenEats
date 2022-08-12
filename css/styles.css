@@ -66,7 +66,7 @@ h1 {
     background: #FFFFFF;
 }
 
-.label button {
+.purchase {
     width: 90%;
     max-width: 380px;
     height: 61px;
@@ -204,4 +204,15 @@ h1 {
 
 .border-green ion-icon {
     display: initial;
+}
+
+.finishPurchase {
+    background: #32B72F;
+    border-radius: 50px;
+
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.018em;
+
+    color: #FFFFFF;
 }
