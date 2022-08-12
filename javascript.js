@@ -1,28 +1,16 @@
-let buttons = document.querySelectorAll('button');
+function selector(family, classButton) {
+    const selected = document.querySelector(`.${family} .border-green`);
+    console.log(selected)
 
-function selectorGreen1(id) {
-    for (let i = 0; i < 4; i++) {
-        if (buttons[i].classList.toggle("border-green")){
-            buttons[i].classList.toggle("border-green");
-        }
+    if (selected !== null) {
+        selected.classList.remove("border-green");
     }
-    document.getElementById(id).classList.toggle("border-green");
+
+    const selector = "." + classButton;
+    console.log(selector);
+    const button = document.querySelector(selector);
+    console.log(button);
+    button.classList.add('border-green');
+
 }
 
-function selectorGreen2(id) {
-    for (let i = 4; i < 9; i++) {
-        if (buttons[i].classList.toggle("border-green")){
-            buttons[i].classList.toggle("border-green");
-        }
-    }
-    document.getElementById(id).classList.toggle("border-green");
-}
-
-function selectorGreen3(id) {
-    for (let i = 9; i < buttons.length; i++) {
-        if (buttons[i].classList.toggle("border-green")){
-            buttons[i].classList.toggle("border-green");
-        }
-    }
-    document.getElementById(id).classList.toggle("border-green");
-}
