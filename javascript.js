@@ -1,3 +1,6 @@
+let buttonprincipal = document.getElementById('bottom-label');
+buttonprincipal.disabled = true;
+
 function selector(family, classButton) {
     const selected = document.querySelector(`.${family} .border-green`);
 
@@ -17,6 +20,8 @@ function selector(family, classButton) {
         const FinishPurchase = document.getElementById('bottom-label');
         FinishPurchase.innerHTML = 'Fechar pedido';
         FinishPurchase.classList.add('finishPurchase');
+        buttonprincipal.disabled = false;
+
     }
 }
 
@@ -34,4 +39,8 @@ function confirmOrder() {
     const a = document.querySelector('#link-wpp');
     a.href = linke;
     console.log(encode);
+}
+
+function cancelOrder() {
+    document.getElementById("confirm-order").classList.remove('unhidden');
 }

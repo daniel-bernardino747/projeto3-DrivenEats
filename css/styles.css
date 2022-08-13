@@ -301,6 +301,10 @@ h1 {
     
     color: #50D074;
 }
+.button-cancel {
+    background-color: #50D074;
+    height: auto;
+}
 
 .unhidden {
     display: flex;
