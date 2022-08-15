@@ -1,20 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@100;300;400;500;700&display=swap');
 
+.header, .label, .menu, .confirm-order, .confirm-order .box div {
+    width: 100%;
+}
+
+.header h1, .header h2, .label p, .finishPurchase, .confirm-order .box h1, .confirm-order .box p, .confirm-order .box h3, .confirm-order .box h4 {
+    color: #ffffff;
+}
+
+body, h1 {
+    font-style: normal;
+    font-weight: 400;
+}
+
 body {
     width: 414px;
     height: 1026px;
-
     font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-
     background: #EEEEEE;
 }
 
 h1 {
     font-family: "Righteous", cursive;
-    font-style: normal;
-    font-weight: 400;
     font-size: 44px;
     line-height: 55px;
     letter-spacing: -0.012em;
@@ -25,8 +32,6 @@ h1 {
     left: 0px;
     top: 0px;
     z-index: 1;
-
-    width: 100%;
     height: 92px;
 
     background: #CF2B2B;
@@ -38,8 +43,6 @@ h1 {
     height: 44px;
     margin-top: 10px;
     margin-left: 5%;
-
-    color: #FFFFFF;
 }
 
 .header h2 {
@@ -50,8 +53,6 @@ h1 {
 
     font-size: 18px;
     line-height: 21px;
-
-    color: #FFFFFF;
 }
 
 .label {
@@ -60,7 +61,6 @@ h1 {
     bottom: 0px;
     z-index: 1;
 
-    width: 100%;
     height: 92px;
 
     background: #FFFFFF;
@@ -83,8 +83,6 @@ h1 {
     line-height: 23px;
     text-align: center;
     letter-spacing: 0.018em;
-
-    color: #FFFFFF;
 }
 
 #first-menu {
@@ -106,10 +104,6 @@ h1 {
     margin-bottom: 60px;
 }
 
-.menu {
-    width: 100%;
-}
-
 .menu .scroll-screen {
     margin-top: 13px;
     overflow-y: hidden;
@@ -120,9 +114,7 @@ h1 {
     height: 216px;
     width: 300%;
     height: inherit;
-
     display: flex;
-    
 }
 
 .menu h1 {
@@ -136,7 +128,6 @@ h1 {
     font-weight: 700;
     font-size: 16px;
     line-height: 19px;
-
     color: #333333;
 }
 
@@ -144,7 +135,6 @@ h1 {
     margin-top: 8px;
     font-size: 16px;
     line-height: 19px;
-
     color: #000000;
 }
 
@@ -152,7 +142,6 @@ h1 {
     font-weight: 300;
     font-size: 15px;
     line-height: 18px;
-
     color: #A6A6A6;
 }
 
@@ -209,19 +198,15 @@ h1 {
 .finishPurchase {
     background: #32B72F;
     border-radius: 50px;
-
     font-weight: 700;
     font-size: 20px;
     letter-spacing: 0.018em;
-
-    color: #FFFFFF;
 }
 
 .confirm-order {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
     height: 100%;
     z-index: 3;
     display: None;
@@ -238,18 +223,12 @@ h1 {
     border-radius: 9px;
 }
 
-.confirm-order .box div {
-    width: 100%;
-}
-
 .confirm-order .box h1 {
     margin: 15px 0px;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
     text-align: center;
-
-    color: #FFFFFF;
 }
 
 .confirm-order .box p {
@@ -257,8 +236,6 @@ h1 {
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.018em;
-
-    color: #FFFFFF;
 }
 
 .confirm-order .box h3 {
@@ -270,8 +247,6 @@ h1 {
     line-height: 26px;
     letter-spacing: 0.018em;
     text-align: center;
-
-    color: #FFFFFF;
 }
 
 .confirm-order .box h4 {
@@ -282,8 +257,6 @@ h1 {
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.018em;
-
-    color: #FFFFFF;
 }
 
 .button-wpp {
